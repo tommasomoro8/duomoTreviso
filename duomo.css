@@ -1,0 +1,682 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.stemma{
+    height: 7vh;
+    position: fixed;
+    margin-left: 2%;
+    margin-top: 5px;
+}
+
+.menu {
+    position: fixed;
+    width: 100%;
+    margin: 0 auto;
+    height: fit-content;
+    background: black;
+    padding: 0;
+}
+
+.menu-title {
+    color: white;
+    margin-left: 8%;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+.absolute {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: min(1500px, 95vw);
+    margin: auto;
+}
+
+@media (max-width: 850px) {
+    .absolute {
+        flex-direction: column;
+        align-items: flex-end;
+        max-height: fit-content;
+    }
+}
+
+.firstbutton:hover {
+    background-color: aquamarine;
+    color: black;
+}
+
+.menu-button {
+    float: right;
+    margin-left: 0px;
+    height: 70px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+    width: 80px;
+    margin-top: -68px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.firstbutton {
+    float: right;
+    margin-right: 20%;
+    font-family: 'Times New Roman', Times, serif;
+    height: 70px;
+    background-color: black;
+    width: 80px;
+    margin-top: -68px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.menu-button:hover {
+    background-color: aquamarine;
+    color: black
+}
+
+.buttons:hover {
+    background-color: rgb(139, 15, 221);
+}
+
+.parallax {
+    background: url('img/duomo2.jpg') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+}
+
+.language {
+    width: 10%;
+    height: 2%;
+    margin-left: 0%;
+    margin-top: -3%;
+}
+
+.langimg {
+    width: 100%;
+    height: 100%;
+}
+
+.langbutton {
+    width: 40px;
+    height: 30px;
+    margin-left: 3%;
+    background-color: transparent;
+    border: none;
+}
+
+/* inizio pagina principale */
+.container {
+    width: auto;
+    margin: 0 auto;
+    background: white;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0;
+}
+
+.all {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: fit-content;
+    border: none;
+}
+
+.text-history {
+    width: 55%;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.title-history {
+    margin-top: 2%;
+    font-family: "Copperplate";
+    font-weight: bold;
+}
+
+.slideshow {
+    height: 125vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.slideshow table {
+    height: 300px;
+    border: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.parallax2-history {
+    background: url('img/duomo3.jpg') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    margin-top: 5%;
+}
+
+/* inizio pagina "dove" */
+.all-dove {
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    border: none;
+}
+
+.containerdove {
+    width: 100%;
+    margin-left: 0%;
+    align-items: center;
+    background: white;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0;
+    height: fit-content;
+}
+
+.titolo {
+    font-size: 30px;
+	font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    color: black;
+    text-align: center;
+    font-weight: 900;
+}
+
+.text-dove {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.parallax2-dove {
+    background: url('img/duomo3.jpg') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    margin-top: 25%;
+}
+
+/* inizio pagina "descrizione" */
+.alldescrizione {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10vh;
+    justify-content: space-around;
+    height: fit-content;
+    border: none;
+}
+
+.text-descrizione {
+    width: 60%;
+    text-align: justify;
+    height: fit-content;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.immagini-descrizione {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.immagini-descrizione img {
+    margin-top: 15%;
+    box-shadow: 10px 10px 5px #6c6a6acc;
+    width: 350px;
+}
+
+.parallax2-descrizione {
+    background: url('img/duomo3.jpg') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    margin-top: 10%;
+}
+
+/* inizio pagina "opere" */
+.allopere {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: fit-content;
+    border: none;
+}
+
+.title-opere {
+    margin-top: 2%;
+    font-family: "Copperplate";
+    font-weight: bold;
+}
+
+.opera1 {
+    margin-top: 3%;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text-opera {
+    height: fit-content;
+    width: 70%;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.text-opera3 {
+    height: fit-content;
+    width: 50%;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.img-opere {
+    box-shadow: 10px 10px 5px #6c6a6acc;
+}
+.img-opere17{
+    box-shadow: 10px 10px 5px #6c6a6acc;
+    height: fit-content;
+}
+
+.img-opere1{
+    box-shadow: 10px 10px 5px #6c6a6acc;
+    margin-left: 10px;
+    width: 230px;
+}
+.opera2 {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text-opera3 {
+    height: fit-content;
+    width: 60%;
+    margin-left: 15px;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.img-opere3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 30%;
+}
+
+.text-opera4 {
+    height: fit-content;
+    width: 60%;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.img-opere4 {
+    box-shadow: 10px 10px 5px #6c6a6acc;
+    height: 500px;
+}
+
+.img-opere5 {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+
+.img-opere51 {
+    width: 450px;
+    box-shadow: 10px 10px 5px #6c6a6acc;
+}
+
+.text-opera7 {
+    height: fit-content;
+    width: 50%;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.text-opera7-1 {
+    height: fit-content;
+    width: 60%;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.opera9 {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img-opere9 {
+    box-shadow: 10px 10px 5px #6c6a6acc;
+    height: 600px;
+}
+
+.img-opere10 {
+    box-shadow: 10px 10px 5px #6c6a6acc;
+    height: 500px;
+}
+
+.img-opere11 {
+    box-shadow: 10px 10px 5px #6c6a6acc;
+    height: 300px;
+}
+
+.img-opere12 {
+    box-shadow: 10px 10px 5px #6c6a6acc;
+    height: 400px;
+}
+
+.parallax2opere {
+    background: url('img/duomo3.jpg') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    margin-top: 15%;
+}
+
+/* inizio pagina "cripta" */
+.allcripta {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: fit-content;
+    border: none;
+    margin-top: 40px;
+}
+
+.text-cripta1 {
+    width: 50%;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.img-cripta {
+    box-shadow: 10px 10px 5px #6c6a6acc;
+    width: 400px;
+}
+
+.immagini-cripta {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+}
+
+.parallax2cripta {
+    background: url('img/duomo3.jpg') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    margin-top: 20%;
+}
+
+/* inizio pagina "battistero" */
+.all-battistero {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: fit-content;
+    border: none;
+}
+
+.containerbattistero {
+    background: white;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0;
+    height: fit-content;
+}
+
+.text-battistero {
+    width: 55%;
+    height: fit-content;
+    margin-top: 5%;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.parallax2-battistero {
+    background: url('img/duomo3.jpg') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    margin-top: 12%;
+}
+
+.img-battistero {
+    margin-top: 5%;
+    width: 300px;
+    box-shadow: 10px 10px 5px #6c6a6acc;
+}
+
+/*inizio pagina "diocesi"*/
+.mean-absolute {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mean-textdiocesi {
+    width: 80%;
+}
+
+.img-diocesi {
+    width: 200px;
+}
+
+.img {
+    width: fit-content;
+}
+
+.absolute2 {
+    display: flex;
+    flex-direction: column;
+    width: min(1500px, 90vw);
+    margin: auto;
+}
+
+.absolute3 {
+    display: flex;
+    justify-content: center;
+}
+
+.alldiocesi {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: fit-content;
+    border: none;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.titolo-diocesi {
+    display: flex;
+    font-size: 22px;
+    font-family: "Copperplate";
+    text-transform: capitalize;
+    color: black;
+}
+
+.text-diocesi {
+    width: 80%;
+}
+
+.text-diocesi1 {
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    align-items: center;
+    text-align: justify;
+    font-size: 20px;
+    width: fit-content;
+}
+
+.text-diocesi2 {
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    flex-direction: column;
+    text-align: justify;
+    width: 45%;
+    font-size: 20px;
+}
+
+
+.text-diocesi3 {
+    width: 93%;
+    height: fit-content;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.parallax2-diocesi {
+    background: url('img/duomo3.jpg') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    margin-top: 5%;
+}
+/*inizio button app*/
+.all-app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-app {
+    width: 80vw;
+    margin-bottom: 35px;
+    align-items: center;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.buttonapp {
+    background-color: #111;
+    color: rgb(255, 255, 255);
+    border: 1px solid #222;
+    border-radius: 80px;
+    font-family: arial, verdana, sans-serif;
+    font-size: 30px;
+    height: 15vh;
+    width: 20vw;
+    cursor: pointer;
+}
+.container-button{
+    display: flex;
+    flex-direction: row;
+    width: 80%; 
+    justify-content: space-evenly;
+}
+/*inizio footer*/
+.buttons-container {
+    float: right;
+    margin-right: 10%;
+    width: 400px;
+    height: 20px;
+    margin-top: 1%;
+    text-align: center;
+    align-items: center;
+}
+
+.slide-button1 {
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    align-items: center;
+    border-radius: 70px;
+    cursor: pointer;
+    outline: none;
+}
+
+.slide-button2 {
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    align-items: center;
+    border-radius: 70px;
+    cursor: pointer;
+    outline: none;
+}
+
+.slide-button1:hover {
+    background-color: aquamarine;
+}
+
+.slide-button2:hover {
+    background-color: aquamarine;
+}
+
+footer {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #111;
+    height: auto;
+    width: 100%;
+    font-family:'Times New Roman', Times, serif;
+    padding-top: 20px;
+    color: #fff;
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-container h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+    text-align: center;
+}
+
+.footer-bottom {
+    background: #111;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.footer-bottom span {
+    opacity: 0.4;
+    font-weight: 200;
+}
+
+a:hover,
+a:active,
+a:visited,
+a:link {
+    color: #ffffff;
+}

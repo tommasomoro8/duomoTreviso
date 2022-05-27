@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Duomo di Treviso</title>
+  <link href="duomo.css" rel="stylesheet" type="text/css" media="screen" />
+  <link rel="icon" sizes="32x32" href="img/icona.png">
+  <script src="duomo.js"></script>
+  <script language="JavaScript1.1" src="osscroller.js"></script>
+</head>
+
+<body onload="oscroller_init();">
+
+  <div class="menu">
+  	<img src="img/stemmatreviso.png" class="stemma"/>
+    <p class="menu-title" id="menu-title"> Menu </p>
+    <a href="app.html"><button class="firstbutton" id="app">App</button></a>
+    <a href="diocesi.html"><button class="menu-button" id="Diocesi">Diocesi</button></a>
+    <a href="battistero.html"><button class="menu-button" id="battistero">Battistero</button></a>
+    <a href="cripta.html"><button class="menu-button" id="cripta">Cripta</button></a>
+    <a href="opere.html"><button class="menu-button" id="opere">Opere</button></a>
+    <a href="descrizione.html"><button class="menu-button" id="descrizione">Descrizione</button></a>
+    <a href="dove.html"><button class="menu-button" id="dove">Dove</button></a>
+    <a href="home.html"><button class="menu-button">Home</button></a>
+
+  </div>
+  <div class="container">
+
+    <div class="parallax">
+    </div>
+    <div class="absolute">
+      <p class="titolo" id="title">CATTEDRALE DI SAN PIETRO APOSTOLO</p>
+
+      <i>
+        <p class="title-history" id="title-history">La Storia</p>
+      </i>
+
+      <div class="all">
+        <div class="text-history" id="history">
+          Il Duomo di Treviso, o Cattedrale di San Pietro Apostolo è il principale luogo di culto a Treviso e la sede
+          della diocesi locale. È uno dei punti di riferimento della città e vanta una ricchezza storico-artistica
+          apprezzata in tutta Italia.<br>
+          La costruzione si trova nel complesso di Piazza Duomo, chiamata da Giovanni Comisso, uno scrittore trevigiano,
+          il “piccolo Vaticano” proprio perché qui si concentrano la maggior parte degli edifici religiosi della città:
+          si trovano la Chiesa, o Battistero, di San Giovanni Battista, le Canoniche, attualmente sede del Museo
+          Diocesano di Arte Sacra, la Biblioteca Capitolina e la Cattedrale di San Pietro Apostolo.<br><br>
+
+          Il duomo richiama visivamente a primo impatto gli antichi templi greci e romani e la sua storia si divide in 4
+          fasi: paleocristiana, romanica, rinascimentale e neoclassica.
+          L’attuale duomo sorge sulle fondamenta di un tempio paleocristiano, risalente probabilmente al VI secolo, di
+          cui ci sono ancora tracce in via delle Canoniche.
+          La storia più antica che la cattedrale può ancora raccontare è nella cripta, sotto al duomo, dove ci sono le
+          tombe dei vescovi della città.<br><br>
+
+          Tra l’XI e il XII secolo il Vescovo Rotario chiese una modifica, in stile romanico. All’età romanica risale
+          anche l’antico portale, ritrovato nella corte delle Canoniche Vecchie, che si può ancora ammirare,
+          ristrutturato nel 2005.
+          La cattedrale venne ristrutturata tra il 1400 e il 1500, quando si aggiunse un avanportico con volte a
+          crociera a sostituire un portico con leoni stilofori.
+          Nella navata destra c’è la cappella dell’Annunziata o del Malchiostro, commissionata da Broccardo Malchiostro
+          (segretario del vescovo Bernardo de Rossi), risalente al 1520. Il progetto era di Tullio e Antonio Lombardo:
+          una struttura rinascimentale che venne poi affrescata da Pordenone, che si occupò delle pareti della cupola e
+          dell’Adorazione dei Magi, e da Tiziano, che creò la Pala dell’Annunziata.<br><br>
+
+          La chiesa venne ricostruita un'ulteriore volta tra il 1760 e il 1782 in stile neoclassico, secondo un progetto
+          di Giordano Riccati, Andrea Memmo e Giannantonio Selva.
+          Nel XVI secolo si costruì la cappella del Santissimo Sacramento, nella navata sinistra, dove si trova anche la
+          tomba del vescovo Niccolò Franco.
+          Nel 1836 viene costruita la facciata attuale seguendo il progetto di Francesco Bomben e Gaspare Petrovich
+          (ingegnere comunale).<br>
+          Tra il 1930 e il 1935 si liberano finalmente le cupole dalle strutture murarie e di copertura in legno e
+          tegole, rivestendole di lastre di rame con lanterne terminali come si ammirano oggi.
+          In occasione del Giubileo del 2000 vennero riorganizzati gli ambienti presbiterali, costruendo un nuovo grande
+          organo, costruito dalle ditte Kuhn e Hradetzky.
+        </div>
+        <div class="slideshow">
+
+          <table>
+            <tr>
+              <td>
+                <img src="img/0.jpg" style="box-shadow: 10px 10px 5px	#6c6a6acc;" width="400px" border="1" name="partenza" alt="image not found" />
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="parallax2-history">
+  </div>
+  <div class="language">
+    <button class="langbutton" onclick="setIta()">
+      <img src="img/bandieraita.png" class="langimg" />
+    </button>
+    <button class="langbutton" onclick="setEng()">
+      <img src="img/bandieraing.png" class="langimg" />
+    </button>
+  </div>
+  <footer>
+    <div class="footer-container">
+      <h1 id="footer">Duomo di Treviso</h1>
+    </div>
+    <div class="footer-bottom">
+      <p>Copyright &copy;2022. Designed by <span>Baldasso Alberto - Granzotto Leonardo - Bozzo Aurora</span></p><br> <a href= "mailto:alb305305@gmail.com"><p class="contatti"id="contatti">Contattaci</p></a>
+    </div>
+  </footer>
+</body>
+
+</html>
