@@ -1,10 +1,34 @@
+duomo.css
+Chi ha accesso
+A
+
+Proprietà di sistema
+Tipo
+Foglio di stile
+Dimensioni
+13 kB
+Spazio di archiviazione utilizzato
+13 kB
+Posizione
+css
+Proprietario
+Aurora Bozzo
+Data modifica
+23:41 da Aurora Bozzo
+Aperto
+23:51 da me
+Data creazione
+23:41
+Aggiungi una descrizione
+I visualizzatori possono scaricare
 body {
     margin: 0;
     padding: 0;
 }
 
 .stemma{
-    height: 7vh;
+	display: flex;
+    height: 60px;
     position: fixed;
     margin-left: 2%;
     margin-top: 5px;
@@ -64,7 +88,7 @@ body {
 
 .firstbutton {
     float: right;
-    margin-right: 20%;
+    margin-right: 15%;
     font-family: 'Times New Roman', Times, serif;
     height: 70px;
     background-color: black;
@@ -285,15 +309,10 @@ body {
 .img-opere {
     box-shadow: 10px 10px 5px #6c6a6acc;
 }
-.img-opere17{
-    box-shadow: 10px 10px 5px #6c6a6acc;
-    height: fit-content;
-}
 
 .img-opere1{
     box-shadow: 10px 10px 5px #6c6a6acc;
     margin-left: 10px;
-    width: 230px;
 }
 .opera2 {
     margin-top: 5%;
@@ -305,7 +324,7 @@ body {
 
 .text-opera3 {
     height: fit-content;
-    width: 60%;
+    width: 50%;
     margin-left: 15px;
     text-align: justify;
     font-family: 'Times New Roman', Times, serif;
@@ -315,7 +334,8 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    width: 30%;
+    margin-right: 5%;
+    margin-left: 5%;
 }
 
 .text-opera4 {
@@ -334,6 +354,7 @@ body {
     display: flex;
     justify-content: space-around;
     width: 30%;
+    margin-left: 5%;
 }
 
 .img-opere51 {
@@ -477,7 +498,7 @@ body {
 }
 
 .mean-textdiocesi {
-    width: 80%;
+    width: 75%;
 }
 
 .img-diocesi {
@@ -485,7 +506,7 @@ body {
 }
 
 .img {
-    width: fit-content;
+    width: 20%;
 }
 
 .absolute2 {
