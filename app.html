@@ -3,16 +3,17 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Battistero</title>
+  <title>App</title>
   <link href="duomo.css" rel="stylesheet" type="text/css" media="screen" />
   <link rel="icon" sizes="32x32" href="img/icona.png">
-  <script src="battistero.js"></script>
+  <script src="app.js"></script>
+  <script src="download.js"></script>
 </head>
 
 <body>
 
   <div class="menu">
-  	<img src="img/stemmatreviso.png" class="stemma"/>
+    <img src="img/stemmatreviso.png" class="stemma" />
     <p class="menu-title" id="menu-title"> Menu </p>
     <a href="app.html"><button class="firstbutton" id="app">App</button></a>
     <a href="diocesi.html"><button class="menu-button" id="Diocesi">Diocesi</button></a>
@@ -30,43 +31,31 @@
     <div class="parallax">
     </div>
     <div class="absolute">
-      <p class="titolo" id="title"> BATTISTERO </p>
-      <div class="all-battistero">
+      <p class="titolo" id="title"> APP </p>
+      <div class="all-app">
 
-        <div class="text-battistero" id="t">
-          Il battistero di San Giovanni fu ricostruito nei secoli XI-XII sulla base di altri edifici antichi, e per
-          secoli
-          fu l'unico battistero della città. La chiesa è cambiata nel tempo ed è stata riportata alle sue originarie
-          linee
-          romaniche nel corso di questo secolo. Costruita in rosso mattone, sulla facciata, i lati e l'abside (visibili
-          da
-          Calmaggiore) sono incrociati in raffinato senso plastico da lesene dolcemente raccordate da coppie di archi al
-          centro dei mensoloni scolpiti. Due architravi romani con motivi botanici (XI o IV secolo d.C.) fiancheggiano
-          il
-          portone d'ingresso, che conserva gli originali battenti in legno intagliato del XIV secolo. Sulla destra, la
-          vivace cattedrale è una nicchia con affreschi tardo gotici (S. Giovanni Battista, S. Giacomo e l'Angelo) di un
-          pittore molto vicino a Gentile da Fabriano. L'interno, a semplice aula rettangolare, presenta un piccolo con
-          abside sullo sfondo, racchiuso da balaustre di colonne marmoree e vigorose teste di Santi. Ai lati del
-          presbiterio due absidi con interessanti affreschi duecenteschi: quella di destra una Madonna col Bambino e
-          Santi, in stile romanico; quella di sinistra è una Madonna col Bambino tra Gabriele e San Prosdocimo, un'opera
-          con linee ancora in bei colori e un disegno elegante. Al centro della stanza si trovano i grandi battesimi in
-          marmo rosso.
-
+        <div class="text-app" id="text-app">
+          <br>Visita il Duomo di Treviso in prima persona e navigaci dentro da casa tua. <br> Questa app ti dà la
+          possibilità di camminare all’interno della chiesa in maniera interattiva per conoscere l’edificio a 360 gradi.
+          Grazie ad una guida potrai osservare le varie architetture interne, le opere e scoprire la loro reale
+          collocazione, durante il tuo viaggio virtuale.
         </div>
-        <img src="img/battistero.jpg" class="img-battistero">
+        <div class="container-button">
+          <button class="buttonapp" id="downloadcontentwindows" onclick="windows()">Scarica l'app per Windows</button>
+          <button class="buttonapp" id="downloadcontentmac" onclick="mac()">Scarica l'app per Mac</button>
+          <button class="buttonapp" id="downloadcontentvr" onclick="vr()">Scarica l'app per il visore 3D</button>
+        </div>
       </div>
     </div>
-
   </div>
-
   <div class="parallax2-battistero">
   </div>
   <div class="language">
     <button class="langbutton" onclick="setIta()">
-      <img src="/DuomoTreviso/img/bandieraita.png" class="langimg" />
+      <img src="img/bandieraita.png" class="langimg" />
     </button>
     <button class="langbutton" onclick="setEng()">
-      <img src="/DuomoTreviso/img/bandieraing.png" class="langimg" />
+      <img src="img/bandieraing.png" class="langimg" />
     </button>
   </div>
   <footer>
@@ -77,8 +66,12 @@
     </div>
     <div class="footer-bottom">
       <p>Copyright &copy;2022. Designed by <span>Baldasso Alberto - Granzotto Leonardo - Bozzo Aurora</span></p><br>
-      <p>In collaboration with <span>Classe 3BA</span></p><br>
-      <a href= "mailto:alb305305@gmail.com"><p class="contatti"id="contatti">Contattaci</p></a>
+      <p>App created by <span><a href="https://github.com/tommasomoro8" target="_blank">Moro Tommaso</a> - <a
+            href="https://github.com/IvanLomaka" target="_blank">Lomaka Ivan</a></span></p><br>
+      <p>In collaboration with <span>Classe 3BA - Liceo Duca degli Abruzzi</span></p><br>
+      <a href="mailto:alb305305@gmail.com">
+        <p class="contatti" id="contatti">Contattaci</p>
+      </a>
     </div>
   </footer>
 
